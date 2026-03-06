@@ -10,15 +10,15 @@
 ### Overview
 This project investigates resource-efficient fine-tuning of a compact 0.6B parameter model (Qwen3-0.6B) for expert-level biomedical question answering on the PubMedQA benchmark. Four adaptation techniques are systematically compared:
 
-Baseline — Untuned Qwen3-0.6B
+- Baseline — Untuned Qwen3-0.6B
 
-Full Fine-Tuning (FFT) — All weights updated via supervised training
+- Full Fine-Tuning (FFT) — All weights updated via supervised training
 
-QLoRA — 4-bit quantized low-rank adaptation
+- QLoRA — 4-bit quantized low-rank adaptation
 
-Knowledge Distillation (KD) — Student trained from II-Medical-8B teacher
+- Knowledge Distillation (KD) — Student trained from II-Medical-8B teacher
 
-Direct Preference Optimization (DPO) — Preference alignment from teacher/base pairs
+- Direct Preference Optimization (DPO) — Preference alignment from teacher/base pairs
 
 <img width="8192" height="5233" alt="image" src="https://github.com/user-attachments/assets/37243eb6-eb59-4078-a99d-e4928a9a603a" />
 
