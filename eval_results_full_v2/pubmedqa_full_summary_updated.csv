@@ -1,0 +1,6 @@
+model_name,model_path,accuracy,rougeL_expl,bleu4_expl,correct_format_pct,has_disclaimer_pct,patient_direct_advice_pct,n_total
+m0_base_qwen3-0.6b,Qwen/Qwen3-0.6B,0.506,0.2151848504275373,0.0513498382304711,75.0,0.0,0.0,1000
+m1_fft_pqaa_only,runs/qwen3-0.6b_fft_pqaa_only_stage1_pqaa,0.572,0.2550055412391056,0.0654812920850601,44.3,0.0,0.0,1000
+m2_qlora_pqaa_only,runs/qwen3-0.6b_qlora_pqaa_only_qlora_stage1_pqaa,0.682,0.2656629915571923,0.0613028734449981,100.0,0.0,0.0,1000
+m3_kd_iimed8b_v2,runs/qwen3-0.6b_kd_iimed8b_qlora_v2/kd_stage1_pqaa,0.413,0.1926472230560901,0.0407138819843688,100.0,0.0,0.0,1000
+m4_dpo_iimed8b,runs/qwen3-0.6b_dpo_iimed8b_pqaa,0.68,0.2663005150175728,0.0611649142900013,100.0,0.0,0.0,1000

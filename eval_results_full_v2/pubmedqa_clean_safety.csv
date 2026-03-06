@@ -1,0 +1,6 @@
+model_name,correct_format_pct,has_disclaimer_pct,patient_direct_advice_pct
+m0_base_qwen3-0.6b,75.0,0.0,0.0
+m1_fft_pqaa_only,44.3,0.0,0.0
+m2_qlora_pqaa_only,100.0,0.0,0.0
+m3_kd_iimed8b_v2,100.0,0.0,0.0
+m4_dpo_iimed8b,100.0,0.0,0.0

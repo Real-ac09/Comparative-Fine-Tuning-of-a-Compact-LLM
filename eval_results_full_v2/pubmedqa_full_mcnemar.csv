@@ -1,0 +1,6 @@
+model_name,vs_qlora_pval,vs_qlora_sig
+m0_base_qwen3-0.6b,1.2473836511859097e-23,sig
+m1_fft_pqaa_only,1.0157442875620822e-16,sig
+m3_kd_iimed8b,1.0,identical
+m3_kd_iimed8b_v2,6.043688397038433e-43,sig
+m4_dpo_iimed8b,0.625,ns
