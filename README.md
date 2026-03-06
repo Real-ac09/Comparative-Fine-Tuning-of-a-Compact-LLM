@@ -21,6 +21,8 @@ Direct Preference Optimization (DPO) — Preference alignment from teacher/base 
 ### Results Summary
 QLoRA achieved the best overall performance. DPO preserved QLoRA performance while enforcing strict formatting alignment. KD degraded below baseline, likely due to noisy pseudo-labels from the teacher model.
 
+<img width="4170" height="2966" alt="image" src="https://github.com/user-attachments/assets/067cbe6b-338b-417e-9468-8c30978956b0" />
+
 ### Requirements
 #### Hardware used:
 
