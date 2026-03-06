@@ -21,28 +21,42 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 #### Hardware used:
 
 GPU: NVIDIA RTX 3090 (24GB VRAM)
+
 CPU: AMD Ryzen 7 7800X3D
+
 RAM: 48GB
+
 OS: Arch Linux
 
 #### Install dependencies:
-bashpip install -r requirements.txt
-requirements.txt includes:
 torch
+
 transformers
+
 datasets
+
 peft
+
 trl
+
 bitsandbytes
+
 evaluate
+
 accelerate
+
 rouge-score
+
 nltk
+
 scipy
+
 
 #### Dataset Configuration
 50,000 training examples (PQA-A)
+
 5,000 validation examples (PQA-A)
+
 1,000 test examples (PQA-L (Train set)
 
 #### Interpreting Results
