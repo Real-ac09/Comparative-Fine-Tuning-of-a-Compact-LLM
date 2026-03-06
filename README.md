@@ -35,25 +35,15 @@ OS: Arch Linux
 
 #### Install dependencies:
 torch
-
 transformers
-
 datasets
-
 peft
-
 trl
-
 bitsandbytes
-
 evaluate
-
 accelerate
-
 rouge-score
-
 nltk
-
 scipy
 
 
