@@ -37,7 +37,7 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 
 ### Install dependencies:
 
-####Core Deep Learning & NLP
+#### Core Deep Learning & NLP
 - PyTorch: 2.10.0 (with CUDA 12.8 runtimes: nvidia-cuda-runtime-cu12==12.8.90)
 - Transformers (Hugging Face): 4.57.6
 - TRL (Transformer Reinforcement Learning): 0.24.0
@@ -46,18 +46,18 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 - Tokenizers: 0.22.2
 - Datasets: 2.21.0
 
-####Hardware Optimization & Memory
+#### Hardware Optimization & Memory
 - Bitsandbytes: 0.49.2
 - Xformers: 0.0.35
 - Triton: 3.6.0
 
-####Evaluation & Metrics
+#### Evaluation & Metrics
 - Evaluate (Hugging Face): 0.4.6
 - Rouge-score: 0.1.2
 - Sacrebleu: 2.6.0
 - Scikit-learn: 1.8.0
 
-####Data Processing & Visualization
+#### Data Processing & Visualization
 - Pandas: 3.0.1
 - NumPy: 2.4.2
 - SciPy: 1.17.1
@@ -69,15 +69,15 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 - 5,000 validation examples (PQA-A)
 - 1,000 test examples (PQA-L (Train set)
 
-#### Interpreting Results
+### Interpreting Results
 
 
-#### Dataset
+### Dataset
 - PubMedQA (Jin et al., 2019) — https://huggingface.co/datasets/qiaojin/PubMedQA
 - PQA-A (Artificial): Used for training and validation
 - PQA-L (Labelled): Used for final evaluation only
 
 
-#### Model
+### Model
 - Qwen3-0.6B — https://huggingface.co/Qwen/Qwen3-0.6B
 - Teacher Model: II-Medical-8B — https://huggingface.co/Intelligent-Internet/II-Medical-8B
