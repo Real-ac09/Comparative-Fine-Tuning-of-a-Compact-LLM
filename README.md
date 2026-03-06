@@ -1,7 +1,11 @@
 # Comparative Fine-Tuning of a Compact LLM for PubMedQA: FFT, QLoRA, Knowledge Distillation, and DPO on Qwen3-0.6B
-## Module: 7043SCN — Generative AI and Reinforcement Learning
-## Institution: Coventry University
-## Author: Mohamed Bseikri
+**Module: 7043SCN — Generative AI and Reinforcement Learning - Task 1**
+
+**Institution: Coventry University**
+
+**Author: Mohamed Bseikri**
+
+**Student ID: 12224702**
 
 ### Overview
 This project investigates resource-efficient fine-tuning of a compact 0.6B parameter model (Qwen3-0.6B) for expert-level biomedical question answering on the PubMedQA benchmark. Four adaptation techniques are systematically compared:
@@ -26,26 +30,23 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 ### Requirements
 #### Hardware used:
 
-GPU: NVIDIA RTX 3090 (24GB VRAM)
-
-CPU: AMD Ryzen 7 7800X3D
-
-RAM: 48GB
-
-OS: Arch Linux
+- GPU: NVIDIA RTX 3090 (24GB VRAM)
+- CPU: AMD Ryzen 7 7800X3D
+- RAM: 48GB
+- OS: Arch Linux
 
 #### Install dependencies:
-torch,
-transformers,
-datasets,
-peft,
-trl,
-bitsandbytes,
-evaluate,
-accelerate,
-rouge-score,
-nltk,
-scipy
+- torch
+- transformers
+- datasets
+- peft
+- trl
+- bitsandbytes
+- evaluate
+- accelerate
+- rouge-score
+- nltk
+- scipy
 
 
 #### Dataset Configuration
