@@ -1,7 +1,7 @@
 # Comparative Fine-Tuning of a Compact LLM for PubMedQA: FFT, QLoRA, Knowledge Distillation, and DPO on Qwen3-0.6B
 ## Module: 7043SCN — Generative AI and Reinforcement Learning
 ## Institution: Coventry University
-### Author: Mohamed Bseikri
+## Author: Mohamed Bseikri
 
 ### Overview
 This project investigates resource-efficient fine-tuning of a compact 0.6B parameter model (Qwen3-0.6B) for expert-level biomedical question answering on the PubMedQA benchmark. Four adaptation techniques are systematically compared:
