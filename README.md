@@ -7,7 +7,7 @@
 
 **Student ID: 12224702**
 
-### Overview
+## Overview
 This project investigates resource-efficient fine-tuning of a compact 0.6B parameter model (Qwen3-0.6B) for expert-level biomedical question answering on the PubMedQA benchmark. Four adaptation techniques are systematically compared:
 
 - Baseline — Untuned Qwen3-0.6B
@@ -27,27 +27,42 @@ QLoRA achieved the best overall performance. DPO preserved QLoRA performance whi
 
 <img width="4170" height="2966" alt="image" src="https://github.com/user-attachments/assets/067cbe6b-338b-417e-9468-8c30978956b0" />
 
-### Requirements
-#### Hardware used:
+## Requirements
+### Hardware used:
 
 - GPU: NVIDIA RTX 3090 (24GB VRAM)
 - CPU: AMD Ryzen 7 7800X3D
 - RAM: 48GB
 - OS: Arch Linux
 
-#### Install dependencies:
-- torch
-- transformers
-- datasets
-- peft
-- trl
-- bitsandbytes
-- evaluate
-- accelerate
-- rouge-score
-- nltk
-- scipy
+### Install dependencies:
 
+####Core Deep Learning & NLP
+- PyTorch: 2.10.0 (with CUDA 12.8 runtimes: nvidia-cuda-runtime-cu12==12.8.90)
+- Transformers (Hugging Face): 4.57.6
+- TRL (Transformer Reinforcement Learning): 0.24.0
+- PEFT: 0.18.1
+- Unsloth: 2026.2.1
+- Tokenizers: 0.22.2
+- Datasets: 2.21.0
+
+####Hardware Optimization & Memory
+- Bitsandbytes: 0.49.2
+- Xformers: 0.0.35
+- Triton: 3.6.0
+
+####Evaluation & Metrics
+- Evaluate (Hugging Face): 0.4.6
+- Rouge-score: 0.1.2
+- Sacrebleu: 2.6.0
+- Scikit-learn: 1.8.0
+
+####Data Processing & Visualization
+- Pandas: 3.0.1
+- NumPy: 2.4.2
+- SciPy: 1.17.1
+- Matplotlib: 3.10.8
+- Seaborn: 0.13.2
 
 #### Dataset Configuration
 - 50,000 training examples (PQA-A)
