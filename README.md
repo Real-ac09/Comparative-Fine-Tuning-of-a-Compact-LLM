@@ -16,8 +16,7 @@ Knowledge Distillation (KD) — Student trained from II-Medical-8B teacher
 
 Direct Preference Optimization (DPO) — Preference alignment from teacher/base pairs
 
-<img alt="image" src="https://github.com/user-attachments/assets/84c41110-08fd-4beb-a03b-9895b7573ae3" />
-
+<img width="8192" height="5233" alt="image" src="https://github.com/user-attachments/assets/37243eb6-eb59-4078-a99d-e4928a9a603a" />
 
 ### Results Summary
 QLoRA achieved the best overall performance. DPO preserved QLoRA performance while enforcing strict formatting alignment. KD degraded below baseline, likely due to noisy pseudo-labels from the teacher model.
