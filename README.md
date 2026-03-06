@@ -11,7 +11,7 @@ Full Fine-Tuning (FFT) — All weights updated via supervised training
 QLoRA — 4-bit quantized low-rank adaptation
 Knowledge Distillation (KD) — Student trained from II-Medical-8B teacher
 Direct Preference Optimization (DPO) — Preference alignment from teacher/base pairs
-<img width="243" height="155" alt="image" src="https://github.com/user-attachments/assets/84c41110-08fd-4beb-a03b-9895b7573ae3" />
+<img alt="image" src="https://github.com/user-attachments/assets/84c41110-08fd-4beb-a03b-9895b7573ae3" />
 
 
 ### Results Summary
